@@ -4,9 +4,10 @@ function insert_Row() {
 	let tr=document.createElement("tr");
 	let td_1=document.createElement("td");
 	let td_2=document.createElement("td");
-	td_1.innerText="New Cell1"
-	td_2.innerText="New Cell2"
-	tr.append(td_1,td_2);
+	td_1.innerText="New Cell1";
+	td_2.innerText="New Cell2";
+	tr.append(td_1);
+	tr.append(td_2);
 	table.prepend(tr);
   
 }
